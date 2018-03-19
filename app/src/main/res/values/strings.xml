@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pixels Rock</string>
+    <string name="colorPickerButton">Pick a color!</string>
+    <string name="tag_color_picker_dialog">color_picker_dialog</string>
 </resources>
