@@ -20,11 +20,20 @@
         android:id="@+id/colorPickerButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="17dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="24dp"
         android:text="@string/colorPickerButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintHorizontal_bias="0.153" app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/clear"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
 

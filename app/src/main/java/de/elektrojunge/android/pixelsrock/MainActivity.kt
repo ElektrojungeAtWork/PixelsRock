@@ -16,6 +16,7 @@ import eltos.simpledialogfragment.color.SimpleColorDialog
 class MainActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListener {
 
     private var pickerButton : Button? = null
+    private var clearButton : Button? = null
     private var selectedColor : Int = Color.MAGENTA
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -58,6 +59,15 @@ class MainActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListener {
                     .allowCustom(true)
                     .show(this, getString(R.string.tag_color_picker_dialog))
         }
+
+        this.clearButton = findViewById<Button>(R.id.clearButton)
+        this.clearButton?.setBackgroundColor(Color.DKGRAY)
+        this.clearButton?.setOnClickListener{
+            for (pixel : Pixel in pixels) {
+                pixel.color = Color.LTGRAY
+            }
+        }
+
     }
 
     // Color Picker onnResult callback

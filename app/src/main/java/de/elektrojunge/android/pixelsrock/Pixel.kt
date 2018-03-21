@@ -4,7 +4,6 @@ import android.content.Context
 
 class Pixel(context: Context?, color: Int, size: Int) {
     var color: Int = color
-        get() = color
         set(value) {
             field = value
             pixelView?.setBackgroundColor(color)
