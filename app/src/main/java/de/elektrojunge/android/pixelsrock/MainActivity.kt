@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListener {
         for (i in 0 until pixelCount) {
             val pixel = Pixel(this, Color.LTGRAY, width)
             pixel.pixelView?.setOnTouchListener { _: View, event: MotionEvent ->
-                val eventAction = event?.action
+                val eventAction = event.action
                 when (eventAction) {
                     MotionEvent.ACTION_DOWN -> {
                         pixel.pixelView?.setBackgroundColor(this.selectedColor)
