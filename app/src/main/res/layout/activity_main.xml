@@ -5,16 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/pixelGrid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:columnCount="16"
-                android:orientation="horizontal"
-                android:padding="0dp"
-                android:rowCount="16"
-                tools:context="de.elektrojunge.android.pixelsrock.MainActivity">
+    <GridLayout
+        android:id="@+id/pixelGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="16"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:rowCount="16"
+        tools:context="de.elektrojunge.android.pixelsrock.MainActivity">
     </GridLayout>
     <Button
         android:id="@+id/colorPickerButton"
