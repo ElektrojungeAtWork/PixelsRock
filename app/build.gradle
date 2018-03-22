@@ -38,10 +38,12 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     def appCenterSdkVersion = '1.4.0'
-    compile "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
-    compile "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
-    compile "com.microsoft.appcenter:appcenter-distribute:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-distribute:${appCenterSdkVersion}"
 
-    compile 'com.android.support:support-vector-drawable:27.1.0'
-    compile 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:support-vector-drawable:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+
+    androidTestImplementation('com.microsoft.appcenter:espresso-test-extension:1.2')
 }
