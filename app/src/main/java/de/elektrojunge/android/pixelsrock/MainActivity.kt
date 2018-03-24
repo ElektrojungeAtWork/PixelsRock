@@ -12,7 +12,6 @@ import com.microsoft.appcenter.AppCenter
 import com.microsoft.appcenter.analytics.Analytics
 import com.microsoft.appcenter.analytics.Analytics.trackEvent
 import com.microsoft.appcenter.crashes.Crashes
-import com.microsoft.appcenter.distribute.Distribute
 import eltos.simpledialogfragment.SimpleDialog
 import eltos.simpledialogfragment.SimpleDialog.OnDialogResultListener.BUTTON_POSITIVE
 import eltos.simpledialogfragment.color.SimpleColorDialog
@@ -30,7 +29,7 @@ class MainActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListener {
 
         // Initialize App Center SDK
         AppCenter.start(application, "55efc107-ee0c-40e4-a4e7-e4f283b59b2e",
-                Analytics::class.java, Crashes::class.java, Distribute::class.java)
+                Analytics::class.java, Crashes::class.java)
 
 
         val grid = findViewById<GridLayout>(R.id.pixelGrid)
