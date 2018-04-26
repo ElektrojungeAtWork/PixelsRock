@@ -76,10 +76,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var pixelView62: PixelView!
     @IBOutlet weak var pixelView63: PixelView!
     @IBOutlet weak var pixelView64: PixelView!
+    
+    @IBOutlet weak var resetButton: UIButton!
+    
+    var pixelViews : [PixelView] = []
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        pixelViews = [pixelView1, pixelView2, pixelView3, pixelView4, pixelView5, pixelView6, pixelView7, pixelView8,
+                      pixelView9, pixelView10, pixelView11, pixelView12, pixelView13, pixelView14, pixelView15, pixelView16,
+                      pixelView17, pixelView18, pixelView19, pixelView20, pixelView21, pixelView22, pixelView23, pixelView24,
+                      pixelView25, pixelView26, pixelView27, pixelView28, pixelView29, pixelView30, pixelView31, pixelView32,
+                      pixelView33, pixelView34, pixelView35, pixelView36, pixelView37, pixelView38, pixelView39, pixelView40,
+                      pixelView41, pixelView42, pixelView43, pixelView44, pixelView45, pixelView46, pixelView47, pixelView48,
+                      pixelView49, pixelView50, pixelView51, pixelView52, pixelView53, pixelView54, pixelView55, pixelView56,
+                      pixelView57, pixelView58, pixelView59, pixelView60, pixelView61, pixelView62, pixelView63, pixelView64,
+        ]
     }
 
     override func didReceiveMemoryWarning() {
@@ -87,6 +100,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func resetPixels(_ sender: Any) {
+        for pixelView in self.pixelViews {
+            pixelView.backgroundColor = UIColor.lightGray
+        }
+    }
+    
 }
 

@@ -780,11 +780,36 @@
                                     <constraint firstItem="gzZ-Jd-Exp" firstAttribute="trailing" secondItem="Dmm-IM-7e9" secondAttribute="trailing" id="zGj-g2-tal"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbD-Fp-XtE">
+                                <rect key="frame" x="23" y="609" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="ga6-AM-dsc"/>
+                                    <constraint firstAttribute="height" constant="30" id="hki-rU-r1I"/>
+                                </constraints>
+                                <state key="normal" title="Pick Color"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-Mp-KnA">
+                                <rect key="frame" x="282" y="609" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LPx-j8-VII"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="klf-c6-Vdk"/>
+                                </constraints>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetPixels:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Az5-58-NYe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NbD-Fp-XtE" secondAttribute="trailing" constant="20" symbolic="YES" id="4Fu-M5-D0i"/>
+                            <constraint firstItem="NbD-Fp-XtE" firstAttribute="leading" secondItem="nFI-Op-ngr" secondAttribute="leading" id="9zu-h3-ecC"/>
+                            <constraint firstItem="V3f-Mp-KnA" firstAttribute="top" secondItem="nFI-Op-ngr" secondAttribute="bottom" constant="38" id="Asd-1G-pXa"/>
+                            <constraint firstItem="V3f-Mp-KnA" firstAttribute="trailing" secondItem="nFI-Op-ngr" secondAttribute="trailing" id="NNI-rF-eJ3"/>
                             <constraint firstItem="nFI-Op-ngr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ohH-J0-xlg"/>
                             <constraint firstItem="nFI-Op-ngr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="som-Fh-p5H"/>
+                            <constraint firstItem="V3f-Mp-KnA" firstAttribute="baseline" secondItem="NbD-Fp-XtE" secondAttribute="baseline" id="twb-2v-IOI"/>
+                            <constraint firstItem="V3f-Mp-KnA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="vxn-Ll-ilD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -853,6 +878,7 @@
                         <outlet property="pixelView7" destination="p5h-l6-UQk" id="dzj-xo-4Sz"/>
                         <outlet property="pixelView8" destination="U5W-5u-qE1" id="smB-bf-dFZ"/>
                         <outlet property="pixelView9" destination="vso-Mq-ND9" id="9qO-bG-2Ay"/>
+                        <outlet property="resetButton" destination="V3f-Mp-KnA" id="aJm-Lr-d8F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
