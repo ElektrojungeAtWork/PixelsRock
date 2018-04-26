@@ -7,6 +7,7 @@ target 'PixelsRock' do
 
   # Pods for PixelsRock
   pod 'EFColorPicker'
+  pod 'AppCenter'
 
   target 'PixelsRockTests' do
     inherit! :search_paths

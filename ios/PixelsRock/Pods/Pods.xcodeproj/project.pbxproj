@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		01CACAFBCB361D9CD57BD35B2894AE1A /* Pods-PixelsRockUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8757F527C0A7254AF78E399E7B937EB /* Pods-PixelsRockUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		129440BB9F115E0C87AD58C1A5CE6C24 /* EFColorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5942759C6C9936BB830F8DAA71247B /* EFColorSelectionView.swift */; };
+		129440BB9F115E0C87AD58C1A5CE6C24 /* EFColorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86344194B32AA2EE545EE17AEDF3E9 /* EFColorSelectionView.swift */; };
 		226D20BBB09E8304542F17DA607D7E90 /* Pods-PixelsRock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7659746328504B325A722839A13CEBE4 /* Pods-PixelsRock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2702503FC70C9F8CE4FAB5D33B1C4FAC /* EFColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 306A346AC4F30F2FA81ADB7E281E5BB0 /* EFColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CD04619A468A8D3CFBB8DCA157ACF8B /* EFColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7A6068AD4408F2AEE1A5E55278EA51 /* EFColorPicker-dummy.m */; };
+		2702503FC70C9F8CE4FAB5D33B1C4FAC /* EFColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2A33A1C5B0BBBE5E691A52A9A8F415 /* EFColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CD04619A468A8D3CFBB8DCA157ACF8B /* EFColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398880222D04328CAB11AB9E61A7E06 /* EFColorPicker-dummy.m */; };
 		44CE4E0F78FE672C02C29F5F075D5251 /* Pods-PixelsRockUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB7C43FD6474FDD834EA3FF81B5B34 /* Pods-PixelsRockUITests-dummy.m */; };
 		5FA6B05FE895F06D6D9AF8FEC38F1DB8 /* Pods-PixelsRockTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42A7CC055F30A22C73E58F2FB0AD2B /* Pods-PixelsRockTests-dummy.m */; };
 		68D8393BDB0ADC365E5E37C26FA1E5F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		739323DF32643950A32047225485B73F /* EFControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8F556DDBB8A11B4F6CB7CB6D5C34 /* EFControl.swift */; };
-		763ACE1864FEF45B41F1D6CB5EE28F8A /* EFColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AE64DBF8770D9D97D2FB4C12450231 /* EFColorUtils.swift */; };
-		77B4B578BC2F689A42FF691E603C75F8 /* EFColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2DFC0322A142364AE74F2B9967DFD /* EFColorView.swift */; };
+		739323DF32643950A32047225485B73F /* EFControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C2C7071CFC193648F853A155985D06 /* EFControl.swift */; };
+		763ACE1864FEF45B41F1D6CB5EE28F8A /* EFColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8C8E640437C509512D6DD8D7E85162 /* EFColorUtils.swift */; };
+		77B4B578BC2F689A42FF691E603C75F8 /* EFColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683070555786DE2AF091F3CFCEB961E6 /* EFColorView.swift */; };
 		7E556442B6F862357B77E042DBEA8406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7F4D294E76C85B286CE07C3B1D769E47 /* EFSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E29C04625F8F8BE5AEB36F308C9D914 /* EFSliderView.swift */; };
+		7F4D294E76C85B286CE07C3B1D769E47 /* EFSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32CF978F600F9A8EF10CF0D1EFE114 /* EFSliderView.swift */; };
 		930A46558EC48F62AC50DAD390FE09EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B420A75046E1D4DD762A44E4208BAD8D /* EFColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C4428A4FE203AA64E43DBB9F2FFB8 /* EFColorWheelView.swift */; };
-		BE671125912C92D6855EB4602AED6C14 /* EFColorSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003F31438B9B7CB49C4F52FBDC54A11 /* EFColorSelectionViewController.swift */; };
-		C1A603FBB8B8BD9929411FB062BE8EB3 /* EFHSBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08711BDEE179B70962601D2D55726180 /* EFHSBView.swift */; };
+		B420A75046E1D4DD762A44E4208BAD8D /* EFColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D168BD79062C716C41C82A9F2E513 /* EFColorWheelView.swift */; };
+		BE671125912C92D6855EB4602AED6C14 /* EFColorSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E23895A659703A845342364737BEF /* EFColorSelectionViewController.swift */; };
+		C1A603FBB8B8BD9929411FB062BE8EB3 /* EFHSBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188C84875F4C5D6CE1050C0CB15850F /* EFHSBView.swift */; };
 		C8F0D6422287439E54AC4D7CE796550A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CF53FBCBF47F239C3B1FA55350335C4A /* EFThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED5BCFB169654A3B1E8797CE47A3DD /* EFThumbView.swift */; };
+		CF53FBCBF47F239C3B1FA55350335C4A /* EFThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DA7F088BB42F9AD1CF638BE7606AC /* EFThumbView.swift */; };
 		D16E9446D18DEF6E952190AA96C4B76B /* Pods-PixelsRockTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 013FD1C361C4F238761C2FBF64B4F600 /* Pods-PixelsRockTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2A89A25B729C4806D9E293ECCC372A8 /* EFColorComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F59BF6DA66C8D5E28D4E9217159334 /* EFColorComponentView.swift */; };
+		E2A89A25B729C4806D9E293ECCC372A8 /* EFColorComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B72CA620CE4905138BA43DE29FA6DF /* EFColorComponentView.swift */; };
 		ED9FB33B056609C158A5DD10D21C8615 /* Pods-PixelsRock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78693900EBD36ACA38CDF9D7B48A27A7 /* Pods-PixelsRock-dummy.m */; };
-		FEE57165C69AA8F6C40A98E7B15FE8DD /* EFRGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F756EBE095ACA5F7FB5D758399B389F /* EFRGBView.swift */; };
+		FEE57165C69AA8F6C40A98E7B15FE8DD /* EFRGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33AC178D76E7340298A07E0F438416 /* EFRGBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,58 +57,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001EE1679DAD23ACAAC044D9A93244C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00AE64DBF8770D9D97D2FB4C12450231 /* EFColorUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorUtils.swift; path = EFColorPicker/Classes/EFColorUtils.swift; sourceTree = "<group>"; };
 		013FD1C361C4F238761C2FBF64B4F600 /* Pods-PixelsRockTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixelsRockTests-umbrella.h"; sourceTree = "<group>"; };
-		08711BDEE179B70962601D2D55726180 /* EFHSBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFHSBView.swift; path = EFColorPicker/Classes/EFHSBView.swift; sourceTree = "<group>"; };
+		031C3481C80798464B2DA89322D839E6 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
 		104721E2B09FA6CE5B0A80A260482E4B /* Pods-PixelsRock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixelsRock-frameworks.sh"; sourceTree = "<group>"; };
+		145DA7F088BB42F9AD1CF638BE7606AC /* EFThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFThumbView.swift; path = EFColorPicker/Classes/EFThumbView.swift; sourceTree = "<group>"; };
 		166741F0628EC1E44A1884BC871FC5A7 /* Pods_PixelsRock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PixelsRock.framework; path = "Pods-PixelsRock.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E27A566342F25FD749D72BFEA27D43 /* Pods-PixelsRockUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixelsRockUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1B23DD8221883BD277DFCF9E242012FB /* Pods-PixelsRockTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixelsRockTests.modulemap"; sourceTree = "<group>"; };
 		1D0C5B027187F139A0DD785A9A08A9EE /* Pods_PixelsRockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PixelsRockUITests.framework; path = "Pods-PixelsRockUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E29C04625F8F8BE5AEB36F308C9D914 /* EFSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFSliderView.swift; path = EFColorPicker/Classes/EFSliderView.swift; sourceTree = "<group>"; };
+		1D32CF978F600F9A8EF10CF0D1EFE114 /* EFSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFSliderView.swift; path = EFColorPicker/Classes/EFSliderView.swift; sourceTree = "<group>"; };
 		1E8046FA9DEA0AD0EF5D82DFF306B8A9 /* Pods-PixelsRock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixelsRock-acknowledgements.plist"; sourceTree = "<group>"; };
 		2127426F55C138A3C9F7CBCE8997E1F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C981D9E13060CFFDE130E355CDF3583 /* Pods-PixelsRock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixelsRock.modulemap"; sourceTree = "<group>"; };
-		2FA2DFC0322A142364AE74F2B9967DFD /* EFColorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorView.swift; path = EFColorPicker/Classes/EFColorView.swift; sourceTree = "<group>"; };
-		306A346AC4F30F2FA81ADB7E281E5BB0 /* EFColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		33C2C7071CFC193648F853A155985D06 /* EFControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFControl.swift; path = EFColorPicker/Classes/EFControl.swift; sourceTree = "<group>"; };
 		343A80716D824D659172640C70E984E1 /* Pods-PixelsRockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixelsRockTests.debug.xcconfig"; sourceTree = "<group>"; };
-		34F59BF6DA66C8D5E28D4E9217159334 /* EFColorComponentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorComponentView.swift; path = EFColorPicker/Classes/EFColorComponentView.swift; sourceTree = "<group>"; };
 		36FFA8BEA98ACE0EDB5E0793BF594650 /* Pods-PixelsRockUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixelsRockUITests-resources.sh"; sourceTree = "<group>"; };
 		3A8A9B5CB1CF873BAB6799DD9B6B313F /* Pods-PixelsRockTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixelsRockTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3AAB7C43FD6474FDD834EA3FF81B5B34 /* Pods-PixelsRockUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixelsRockUITests-dummy.m"; sourceTree = "<group>"; };
+		3E9AF28DC161498CEFC9722BA1F2EBA8 /* EFColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFColorPicker.modulemap; sourceTree = "<group>"; };
 		3F0E28470374EADBEFC2EE839BCC58DE /* Pods-PixelsRockTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixelsRockTests-frameworks.sh"; sourceTree = "<group>"; };
 		49F71110CA9D015F9C65E1CB2004D01F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50ED5BCFB169654A3B1E8797CE47A3DD /* EFThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFThumbView.swift; path = EFColorPicker/Classes/EFThumbView.swift; sourceTree = "<group>"; };
+		4D3D168BD79062C716C41C82A9F2E513 /* EFColorWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorWheelView.swift; path = EFColorPicker/Classes/EFColorWheelView.swift; sourceTree = "<group>"; };
+		4F8C8E640437C509512D6DD8D7E85162 /* EFColorUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorUtils.swift; path = EFColorPicker/Classes/EFColorUtils.swift; sourceTree = "<group>"; };
+		51B72CA620CE4905138BA43DE29FA6DF /* EFColorComponentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorComponentView.swift; path = EFColorPicker/Classes/EFColorComponentView.swift; sourceTree = "<group>"; };
 		5D42A7CC055F30A22C73E58F2FB0AD2B /* Pods-PixelsRockTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixelsRockTests-dummy.m"; sourceTree = "<group>"; };
+		6398880222D04328CAB11AB9E61A7E06 /* EFColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFColorPicker-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B5942759C6C9936BB830F8DAA71247B /* EFColorSelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorSelectionView.swift; path = EFColorPicker/Classes/EFColorSelectionView.swift; sourceTree = "<group>"; };
-		6B6A085469C56CBF0356B213BB32F2B9 /* EFColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		6BD128B04F4CB7981FEABCF4DED4E820 /* EFColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFColorPicker.modulemap; sourceTree = "<group>"; };
-		6F756EBE095ACA5F7FB5D758399B389F /* EFRGBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFRGBView.swift; path = EFColorPicker/Classes/EFRGBView.swift; sourceTree = "<group>"; };
-		735C4428A4FE203AA64E43DBB9F2FFB8 /* EFColorWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorWheelView.swift; path = EFColorPicker/Classes/EFColorWheelView.swift; sourceTree = "<group>"; };
+		683070555786DE2AF091F3CFCEB961E6 /* EFColorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorView.swift; path = EFColorPicker/Classes/EFColorView.swift; sourceTree = "<group>"; };
+		7188C84875F4C5D6CE1050C0CB15850F /* EFHSBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFHSBView.swift; path = EFColorPicker/Classes/EFHSBView.swift; sourceTree = "<group>"; };
 		7659746328504B325A722839A13CEBE4 /* Pods-PixelsRock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixelsRock-umbrella.h"; sourceTree = "<group>"; };
 		78693900EBD36ACA38CDF9D7B48A27A7 /* Pods-PixelsRock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixelsRock-dummy.m"; sourceTree = "<group>"; };
+		7C2A33A1C5B0BBBE5E691A52A9A8F415 /* EFColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B187F813E0D7FC1BE32C42255837BE /* Pods-PixelsRockUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixelsRockUITests-frameworks.sh"; sourceTree = "<group>"; };
 		956429F768DF9FE54D91EBED690E37BB /* Pods-PixelsRock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixelsRock.release.xcconfig"; sourceTree = "<group>"; };
 		96A3717CC8BA115DCCEB896E4A82FE76 /* Pods-PixelsRockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixelsRockTests.release.xcconfig"; sourceTree = "<group>"; };
-		9F8B8F556DDBB8A11B4F6CB7CB6D5C34 /* EFControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFControl.swift; path = EFColorPicker/Classes/EFControl.swift; sourceTree = "<group>"; };
+		9702537C77B11BAEEF9268F3AEBFB258 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
 		A1CC7C6533A9AFC7A8FE40C9559298B1 /* Pods-PixelsRock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixelsRock-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A755462C80208036160BF40C66E5BB76 /* Pods-PixelsRock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixelsRock-resources.sh"; sourceTree = "<group>"; };
 		A8757F527C0A7254AF78E399E7B937EB /* Pods-PixelsRockUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixelsRockUITests-umbrella.h"; sourceTree = "<group>"; };
 		A8EAF0141782F953AC0591DFC5C73397 /* Pods-PixelsRock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixelsRock.debug.xcconfig"; sourceTree = "<group>"; };
 		AB403966B4F4654FADE55A747BC6C7CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE6A1CA40A1608A9C727CFCA22F2A970 /* EFColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFColorPicker.xcconfig; sourceTree = "<group>"; };
+		BC86344194B32AA2EE545EE17AEDF3E9 /* EFColorSelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorSelectionView.swift; path = EFColorPicker/Classes/EFColorSelectionView.swift; sourceTree = "<group>"; };
 		C3292542D1CD52AA4AFE651DB9872012 /* Pods-PixelsRockTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixelsRockTests-resources.sh"; sourceTree = "<group>"; };
-		CC7A6068AD4408F2AEE1A5E55278EA51 /* EFColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFColorPicker-dummy.m"; sourceTree = "<group>"; };
-		D003F31438B9B7CB49C4F52FBDC54A11 /* EFColorSelectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorSelectionViewController.swift; path = EFColorPicker/Classes/EFColorSelectionViewController.swift; sourceTree = "<group>"; };
+		C60FF41313A4A136BFD0C2886AF53063 /* EFColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFColorPicker.xcconfig; sourceTree = "<group>"; };
+		CA0E23895A659703A845342364737BEF /* EFColorSelectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFColorSelectionViewController.swift; path = EFColorPicker/Classes/EFColorSelectionViewController.swift; sourceTree = "<group>"; };
 		D764D9C8BF6248EF32CDDDF82331301D /* Pods-PixelsRockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixelsRockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA33AC178D76E7340298A07E0F438416 /* EFRGBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFRGBView.swift; path = EFColorPicker/Classes/EFRGBView.swift; sourceTree = "<group>"; };
+		DBCAB5C98EF18CEA52AE8686228E77E8 /* EFColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		DDEF047C7AA0785B888C19CD2F3AAE8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDF0FEC29B3D47E9C61ADC9B653E44D /* Pods_PixelsRockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PixelsRockTests.framework; path = "Pods-PixelsRockTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08DA4FD389808C9BD12E6E478A27D25 /* Pods-PixelsRockUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixelsRockUITests.modulemap"; sourceTree = "<group>"; };
 		EBDDF360E9BFA9C7E50AD5419786A11C /* Pods-PixelsRockTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixelsRockTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EDBE25076842ED2B7B31F4B54DDE069B /* Pods-PixelsRockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixelsRockUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE73F4E98AB14DD11E6D0FCE79937BA5 /* EFColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFColorPicker.framework; path = EFColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF9B228CCC207CDE6BDDC91B2CF4A67 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
 		FF352AC26BA0C0760AC5695DF8547980 /* Pods-PixelsRockUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixelsRockUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,20 +151,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D7B01D50852369CDE7379867326C57 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6BD128B04F4CB7981FEABCF4DED4E820 /* EFColorPicker.modulemap */,
-				BE6A1CA40A1608A9C727CFCA22F2A970 /* EFColorPicker.xcconfig */,
-				CC7A6068AD4408F2AEE1A5E55278EA51 /* EFColorPicker-dummy.m */,
-				6B6A085469C56CBF0356B213BB32F2B9 /* EFColorPicker-prefix.pch */,
-				306A346AC4F30F2FA81ADB7E281E5BB0 /* EFColorPicker-umbrella.h */,
-				001EE1679DAD23ACAAC044D9A93244C4 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EFColorPicker";
-			sourceTree = "<group>";
-		};
 		0F2DF7F9BCC6CA58930B33A6AB48EBBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +160,38 @@
 				1D0C5B027187F139A0DD785A9A08A9EE /* Pods_PixelsRockUITests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		270D63D4C44AF4805D83496DF9462752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9B228CCC207CDE6BDDC91B2CF4A67 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		381668AB1F2537918C58EC7F578331CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031C3481C80798464B2DA89322D839E6 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF72542CA06D370D2E479CB5630CFBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9702537C77B11BAEEF9268F3AEBFB258 /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42488D14C0ED50B8E86B2FC03B2AE5DA /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3EF72542CA06D370D2E479CB5630CFBD /* Frameworks */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		5049A92B552AF5A1B98D8A82BDC281FF /* Targets Support Files */ = {
@@ -224,38 +245,33 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7F9E7DA259A739CFC597C96C9257BDD8 /* Pods */,
+				B59D6A40918B8AC0C1046C2642381D72 /* Pods */,
 				0F2DF7F9BCC6CA58930B33A6AB48EBBD /* Products */,
 				5049A92B552AF5A1B98D8A82BDC281FF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F9E7DA259A739CFC597C96C9257BDD8 /* Pods */ = {
+		B59D6A40918B8AC0C1046C2642381D72 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1E48149C915B4272B4A7EB73C197854 /* EFColorPicker */,
+				CE83851677C969A6F9C8F45702F99E65 /* AppCenter */,
+				CD08EC9FB77F1549B57D486C37B2B427 /* EFColorPicker */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B1E48149C915B4272B4A7EB73C197854 /* EFColorPicker */ = {
+		B6EB3F31C5A64959B6E6040C92C9696F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				34F59BF6DA66C8D5E28D4E9217159334 /* EFColorComponentView.swift */,
-				6B5942759C6C9936BB830F8DAA71247B /* EFColorSelectionView.swift */,
-				D003F31438B9B7CB49C4F52FBDC54A11 /* EFColorSelectionViewController.swift */,
-				00AE64DBF8770D9D97D2FB4C12450231 /* EFColorUtils.swift */,
-				2FA2DFC0322A142364AE74F2B9967DFD /* EFColorView.swift */,
-				735C4428A4FE203AA64E43DBB9F2FFB8 /* EFColorWheelView.swift */,
-				9F8B8F556DDBB8A11B4F6CB7CB6D5C34 /* EFControl.swift */,
-				08711BDEE179B70962601D2D55726180 /* EFHSBView.swift */,
-				6F756EBE095ACA5F7FB5D758399B389F /* EFRGBView.swift */,
-				1E29C04625F8F8BE5AEB36F308C9D914 /* EFSliderView.swift */,
-				50ED5BCFB169654A3B1E8797CE47A3DD /* EFThumbView.swift */,
-				03D7B01D50852369CDE7379867326C57 /* Support Files */,
+				3E9AF28DC161498CEFC9722BA1F2EBA8 /* EFColorPicker.modulemap */,
+				C60FF41313A4A136BFD0C2886AF53063 /* EFColorPicker.xcconfig */,
+				6398880222D04328CAB11AB9E61A7E06 /* EFColorPicker-dummy.m */,
+				DBCAB5C98EF18CEA52AE8686228E77E8 /* EFColorPicker-prefix.pch */,
+				7C2A33A1C5B0BBBE5E691A52A9A8F415 /* EFColorPicker-umbrella.h */,
+				DDEF047C7AA0785B888C19CD2F3AAE8D /* Info.plist */,
 			);
-			name = EFColorPicker;
-			path = EFColorPicker;
+			name = "Support Files";
+			path = "../Target Support Files/EFColorPicker";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -284,12 +300,59 @@
 			path = "Target Support Files/Pods-PixelsRock";
 			sourceTree = "<group>";
 		};
+		CD08EC9FB77F1549B57D486C37B2B427 /* EFColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				51B72CA620CE4905138BA43DE29FA6DF /* EFColorComponentView.swift */,
+				BC86344194B32AA2EE545EE17AEDF3E9 /* EFColorSelectionView.swift */,
+				CA0E23895A659703A845342364737BEF /* EFColorSelectionViewController.swift */,
+				4F8C8E640437C509512D6DD8D7E85162 /* EFColorUtils.swift */,
+				683070555786DE2AF091F3CFCEB961E6 /* EFColorView.swift */,
+				4D3D168BD79062C716C41C82A9F2E513 /* EFColorWheelView.swift */,
+				33C2C7071CFC193648F853A155985D06 /* EFControl.swift */,
+				7188C84875F4C5D6CE1050C0CB15850F /* EFHSBView.swift */,
+				DA33AC178D76E7340298A07E0F438416 /* EFRGBView.swift */,
+				1D32CF978F600F9A8EF10CF0D1EFE114 /* EFSliderView.swift */,
+				145DA7F088BB42F9AD1CF638BE7606AC /* EFThumbView.swift */,
+				B6EB3F31C5A64959B6E6040C92C9696F /* Support Files */,
+			);
+			name = EFColorPicker;
+			path = EFColorPicker;
+			sourceTree = "<group>";
+		};
+		CE83851677C969A6F9C8F45702F99E65 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				42488D14C0ED50B8E86B2FC03B2AE5DA /* Analytics */,
+				D1D519A309BD4645C07A5E8A51210ED4 /* Core */,
+				DD94A116D624E45C365A1DAC1D42C458 /* Crashes */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		D1D519A309BD4645C07A5E8A51210ED4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				270D63D4C44AF4805D83496DF9462752 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD94A116D624E45C365A1DAC1D42C458 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				381668AB1F2537918C58EC7F578331CB /* Frameworks */,
+			);
+			name = Crashes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,7 +633,7 @@
 		};
 		0C95882956D997A7F4AFAFDF5D8DC65B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE6A1CA40A1608A9C727CFCA22F2A970 /* EFColorPicker.xcconfig */;
+			baseConfigurationReference = C60FF41313A4A136BFD0C2886AF53063 /* EFColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -730,7 +793,7 @@
 		};
 		9D0425DDCFC3A7F8FEE0B8AB8306D68E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE6A1CA40A1608A9C727CFCA22F2A970 /* EFColorPicker.xcconfig */;
+			baseConfigurationReference = C60FF41313A4A136BFD0C2886AF53063 /* EFColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -8,6 +8,9 @@
 
 import UIKit
 
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 import EFColorPicker
 
 class ViewController: UIViewController,  UIPopoverPresentationControllerDelegate, EFColorSelectionViewControllerDelegate {
@@ -84,6 +87,8 @@ class ViewController: UIViewController,  UIPopoverPresentationControllerDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        MSAppCenter.start("4fdd9b6f-5f5e-4c5d-adbe-6f40a6cbe6e8", withServices: [MSAnalytics.self, MSCrashes.self])
+        
         pixelViews = [pixelView1, pixelView2, pixelView3, pixelView4, pixelView5, pixelView6, pixelView7, pixelView8,
                       pixelView9, pixelView10, pixelView11, pixelView12, pixelView13, pixelView14, pixelView15, pixelView16,
                       pixelView17, pixelView18, pixelView19, pixelView20, pixelView21, pixelView22, pixelView23, pixelView24,
@@ -96,12 +101,16 @@ class ViewController: UIViewController,  UIPopoverPresentationControllerDelegate
     }
 
     @IBAction func resetPixels(_ sender: Any) {
+        MSAnalytics.trackEvent("ResetPixels")
+        
         for pixelView in self.pixelViews {
             pixelView.backgroundColor = UIColor.lightGray
         }
     }
     
     @IBAction func pickColor(_ sender: Any) {
+        MSAnalytics.trackEvent("ColorPicker")
+
         let colorSelectionController = EFColorSelectionViewController()
         
         let navCtrl = UINavigationController(rootViewController: colorSelectionController)
