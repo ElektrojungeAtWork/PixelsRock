@@ -1,0 +1,16 @@
+PODS:
+  - EFColorPicker (1.1.0)
+
+DEPENDENCIES:
+  - EFColorPicker
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - EFColorPicker
+
+SPEC CHECKSUMS:
+  EFColorPicker: 214e1979a4017245375b1e276cba952d902b8132
+
+PODFILE CHECKSUM: 5c78ef56afa8c2843ea5f768254e97339da02c08
+
+COCOAPODS: 1.5.0

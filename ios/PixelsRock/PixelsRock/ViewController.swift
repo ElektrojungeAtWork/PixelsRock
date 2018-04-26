@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import EFColorPicker
 
-    private var pixelColor = UIColor.white
+class ViewController: UIViewController,  UIPopoverPresentationControllerDelegate, EFColorSelectionViewControllerDelegate {
     
     @IBOutlet weak var pixelView1: PixelView!
     @IBOutlet weak var pixelView2: PixelView!
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var resetButton: UIButton!
     
     var pixelViews : [PixelView] = []
-   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -95,16 +95,58 @@ class ViewController: UIViewController {
         ]
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func resetPixels(_ sender: Any) {
         for pixelView in self.pixelViews {
             pixelView.backgroundColor = UIColor.lightGray
         }
     }
     
+    @IBAction func pickColor(_ sender: Any) {
+        let colorSelectionController = EFColorSelectionViewController()
+        
+        let navCtrl = UINavigationController(rootViewController: colorSelectionController)
+        navCtrl.navigationBar.backgroundColor = UIColor.white
+        navCtrl.navigationBar.isTranslucent = false
+        navCtrl.modalPresentationStyle = UIModalPresentationStyle.popover
+        navCtrl.popoverPresentationController?.delegate = self
+        navCtrl.popoverPresentationController?.sourceView = self.view
+        navCtrl.popoverPresentationController?.sourceRect = (sender as AnyObject).bounds
+        navCtrl.preferredContentSize = colorSelectionController.view.systemLayoutSizeFitting(
+            UILayoutFittingCompressedSize
+        )
+        
+        colorSelectionController.isColorTextFieldHidden = true
+        colorSelectionController.delegate = self
+        colorSelectionController.color = self.view.backgroundColor ?? UIColor.white
+        
+        if UIUserInterfaceSizeClass.compact == self.traitCollection.horizontalSizeClass {
+            let doneBtn: UIBarButtonItem = UIBarButtonItem(
+                title: NSLocalizedString("Done", comment: ""),
+                style: UIBarButtonItemStyle.done,
+                target: self,
+                action: #selector(dismissColorPicker(sender:))
+            )
+            colorSelectionController.navigationItem.rightBarButtonItem = doneBtn
+        }
+        self.present(navCtrl, animated: true, completion: nil)
+    }
+    
+    // MARK:- EFColorSelectionViewControllerDelegate
+    func colorViewController(colorViewCntroller: EFColorSelectionViewController, didChangeColor color: UIColor) {
+
+        for pixel in pixelViews {
+            pixel.pixelColor = color
+        }
+    }
+    
+    // MARK:- Private
+    @objc func dismissColorPicker(sender: UIBarButtonItem) {
+        self.dismiss(animated: true) {
+            [weak self] in
+            if let _ = self {
+                print("EFColorPicker closed.")
+            }
+        }
+    }
 }
 

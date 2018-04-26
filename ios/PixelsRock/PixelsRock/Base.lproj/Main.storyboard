@@ -787,6 +787,9 @@
                                     <constraint firstAttribute="height" constant="30" id="hki-rU-r1I"/>
                                 </constraints>
                                 <state key="normal" title="Pick Color"/>
+                                <connections>
+                                    <action selector="pickColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZkE-9P-Vex"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-Mp-KnA">
                                 <rect key="frame" x="282" y="609" width="70" height="30"/>

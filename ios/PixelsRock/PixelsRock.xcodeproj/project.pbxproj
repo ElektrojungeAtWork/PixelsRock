@@ -15,6 +15,9 @@
 		43B77E84209196690059B3B1 /* PixelsRockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B77E83209196690059B3B1 /* PixelsRockTests.swift */; };
 		43B77E8F209196690059B3B1 /* PixelsRockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B77E8E209196690059B3B1 /* PixelsRockUITests.swift */; };
 		43B77E9D209198280059B3B1 /* PixelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B77E9C209198280059B3B1 /* PixelView.swift */; };
+		828A812313AA7CE0DA901215 /* Pods_PixelsRock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1E89A44EF27963E414DD99 /* Pods_PixelsRock.framework */; };
+		85B389EF9DDD1FC3DD7DA152 /* Pods_PixelsRockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA45AEEE956B9C53D0803B29 /* Pods_PixelsRockTests.framework */; };
+		B5B76CA7227061A99A4ADBB9 /* Pods_PixelsRockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1EBB67278387CD020ECA5A /* Pods_PixelsRockUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E1E89A44EF27963E414DD99 /* Pods_PixelsRock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelsRock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B77E6B209196690059B3B1 /* PixelsRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelsRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B77E6E209196690059B3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43B77E70209196690059B3B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		43B77E8E209196690059B3B1 /* PixelsRockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelsRockUITests.swift; sourceTree = "<group>"; };
 		43B77E90209196690059B3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B77E9C209198280059B3B1 /* PixelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelView.swift; sourceTree = "<group>"; };
+		43FC77386BE4B03F255645EB /* Pods-PixelsRockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelsRockUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelsRockUITests/Pods-PixelsRockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DF840DBE20689E805A3155C /* Pods-PixelsRockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelsRockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelsRockTests/Pods-PixelsRockTests.release.xcconfig"; sourceTree = "<group>"; };
+		78E5B8CF51D848604BAD0400 /* Pods-PixelsRockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelsRockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixelsRockTests/Pods-PixelsRockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88E85E111D6BE874F4E599FE /* Pods-PixelsRock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelsRock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixelsRock/Pods-PixelsRock.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDD4891B39A00EBFAA4B615 /* Pods-PixelsRock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelsRock.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelsRock/Pods-PixelsRock.release.xcconfig"; sourceTree = "<group>"; };
+		9C1EBB67278387CD020ECA5A /* Pods_PixelsRockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelsRockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA45AEEE956B9C53D0803B29 /* Pods_PixelsRockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelsRockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4173E5CA925DF487885A5CA /* Pods-PixelsRockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelsRockUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixelsRockUITests/Pods-PixelsRockUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828A812313AA7CE0DA901215 /* Pods_PixelsRock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B389EF9DDD1FC3DD7DA152 /* Pods_PixelsRockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B76CA7227061A99A4ADBB9 /* Pods_PixelsRockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090ECDCBBA2B58606018ACFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1E89A44EF27963E414DD99 /* Pods_PixelsRock.framework */,
+				AA45AEEE956B9C53D0803B29 /* Pods_PixelsRockTests.framework */,
+				9C1EBB67278387CD020ECA5A /* Pods_PixelsRockUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43B77E62209196690059B3B1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				43B77E82209196690059B3B1 /* PixelsRockTests */,
 				43B77E8D209196690059B3B1 /* PixelsRockUITests */,
 				43B77E6C209196690059B3B1 /* Products */,
+				98F62E9FFB5F51E176493508 /* Pods */,
+				090ECDCBBA2B58606018ACFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = PixelsRockUITests;
 			sourceTree = "<group>";
 		};
+		98F62E9FFB5F51E176493508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E85E111D6BE874F4E599FE /* Pods-PixelsRock.debug.xcconfig */,
+				8DDD4891B39A00EBFAA4B615 /* Pods-PixelsRock.release.xcconfig */,
+				78E5B8CF51D848604BAD0400 /* Pods-PixelsRockTests.debug.xcconfig */,
+				5DF840DBE20689E805A3155C /* Pods-PixelsRockTests.release.xcconfig */,
+				C4173E5CA925DF487885A5CA /* Pods-PixelsRockUITests.debug.xcconfig */,
+				43FC77386BE4B03F255645EB /* Pods-PixelsRockUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B77E93209196690059B3B1 /* Build configuration list for PBXNativeTarget "PixelsRock" */;
 			buildPhases = (
+				FD6137E407810C25AE2FC0E6 /* [CP] Check Pods Manifest.lock */,
 				43B77E67209196690059B3B1 /* Sources */,
 				43B77E68209196690059B3B1 /* Frameworks */,
 				43B77E69209196690059B3B1 /* Resources */,
+				B5B64BCE9D5EC69F9EB5120B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B77E96209196690059B3B1 /* Build configuration list for PBXNativeTarget "PixelsRockTests" */;
 			buildPhases = (
+				81D5CCA6CF3C7B9FA5DEC385 /* [CP] Check Pods Manifest.lock */,
 				43B77E7B209196690059B3B1 /* Sources */,
 				43B77E7C209196690059B3B1 /* Frameworks */,
 				43B77E7D209196690059B3B1 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B77E99209196690059B3B1 /* Build configuration list for PBXNativeTarget "PixelsRockUITests" */;
 			buildPhases = (
+				6A0006268AC841DA429BD83A /* [CP] Check Pods Manifest.lock */,
 				43B77E86209196690059B3B1 /* Sources */,
 				43B77E87209196690059B3B1 /* Frameworks */,
 				43B77E88209196690059B3B1 /* Resources */,
@@ -256,6 +300,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A0006268AC841DA429BD83A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelsRockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D5CCA6CF3C7B9FA5DEC385 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelsRockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B64BCE9D5EC69F9EB5120B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PixelsRock/Pods-PixelsRock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EFColorPicker/EFColorPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFColorPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixelsRock/Pods-PixelsRock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6137E407810C25AE2FC0E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelsRock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43B77E67209196690059B3B1 /* Sources */ = {
@@ -428,6 +547,7 @@
 		};
 		43B77E94209196690059B3B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E85E111D6BE874F4E599FE /* Pods-PixelsRock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +562,7 @@
 		};
 		43B77E95209196690059B3B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDD4891B39A00EBFAA4B615 /* Pods-PixelsRock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +577,7 @@
 		};
 		43B77E97209196690059B3B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E5B8CF51D848604BAD0400 /* Pods-PixelsRockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +594,7 @@
 		};
 		43B77E98209196690059B3B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF840DBE20689E805A3155C /* Pods-PixelsRockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +611,7 @@
 		};
 		43B77E9A209196690059B3B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4173E5CA925DF487885A5CA /* Pods-PixelsRockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +627,7 @@
 		};
 		43B77E9B209196690059B3B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43FC77386BE4B03F255645EB /* Pods-PixelsRockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
