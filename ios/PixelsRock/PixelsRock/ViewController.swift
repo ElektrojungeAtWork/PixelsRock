@@ -81,7 +81,8 @@ class ViewController: UIViewController,  UIPopoverPresentationControllerDelegate
     @IBOutlet weak var pixelView64: PixelView!
     
     @IBOutlet weak var resetButton: UIButton!
-    
+    @IBOutlet weak var pickerButton: UIButton!
+  
     var pixelViews : [PixelView] = []
     
     override func viewDidLoad() {

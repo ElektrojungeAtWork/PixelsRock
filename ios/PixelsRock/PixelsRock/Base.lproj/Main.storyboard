@@ -782,6 +782,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbD-Fp-XtE">
                                 <rect key="frame" x="23" y="609" width="70" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="pickerButton"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="ga6-AM-dsc"/>
                                     <constraint firstAttribute="height" constant="30" id="hki-rU-r1I"/>
@@ -793,6 +794,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-Mp-KnA">
                                 <rect key="frame" x="282" y="609" width="70" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="resetButton"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="LPx-j8-VII"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="klf-c6-Vdk"/>
@@ -817,6 +819,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="pickerButton" destination="NbD-Fp-XtE" id="RZS-Gy-1JI"/>
                         <outlet property="pixelView1" destination="WCR-3C-tl1" id="yAb-0l-Jry"/>
                         <outlet property="pixelView10" destination="QEx-nh-DcQ" id="ca1-P9-Rm1"/>
                         <outlet property="pixelView11" destination="9NE-O7-jz9" id="Kf9-x4-ira"/>
