@@ -102,7 +102,6 @@ class ViewController: UIViewController,  UIPopoverPresentationControllerDelegate
 
     @IBAction func resetPixels(_ sender: Any) {
         MSAnalytics.trackEvent("ResetPixels")
-        
         for pixelView in self.pixelViews {
             pixelView.backgroundColor = UIColor.lightGray
         }
